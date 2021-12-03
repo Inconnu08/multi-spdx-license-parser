@@ -1,0 +1,44 @@
+input
+Building SPDX License List. This may take a while...
+--- 2.6956708431243896 seconds ---
+get close matches {'Apache-2.0': 0.999162712810494, 'ImageMagick': 0.9875467694197799}
+get_matching_string Apache-2.0
+get_matching_string ImageMagick
+
+The given license text matches 90.51% with that of Apache-2.0 based on Levenstein distance.
+input
+elif all(score == 1.0 for score in list(matches.values())):
+The following license ID(s) match: MIT
+input
+elif all(score == 1.0 for score in list(matches.values())):
+The following license ID(s) match: GPL-3.0
+input
+get close matches {'BSD-4-Clause-UC': 0.9096923585841878, 'BSD-3-Clause-Attribution': 0.929783693843594, 'BSD-2-Clause-NetBSD': 0.9241531664212077, 'BSD-4-Clause': 0.9343707713125846, 'BSD-2-Clause': 0.9315068493150684, 'BSD-3-Clause': 0.9889953851615193, 'BSD-2-Clause-FreeBSD': 0.9110797459421313, 'BSD-3-Clause-Clear': 0.942327150084317}
+get_matching_string BSD-4-Clause-UC
+get_matching_string BSD-3-Clause-Attribution
+get_matching_string BSD-2-Clause-NetBSD
+get_matching_string BSD-4-Clause
+get_matching_string BSD-2-Clause
+get_matching_string BSD-3-Clause
+get_matching_string BSD-2-Clause-FreeBSD
+get_matching_string BSD-3-Clause-Clear
+
+The given license text matches 93.36% with that of BSD-3-Clause based on Levenstein distance.
+input
+elif all(score == 1.0 for score in list(matches.values())):
+The following license ID(s) match: LGPL-3.0
+input
+elif all(score == 1.0 for score in list(matches.values())):
+The following license ID(s) match: AGPL-3.0
+input
+get close matches {'MPL-2.0': 0.9755722125552135, 'CDDL-1.0': 0.8713613829922461}
+get_matching_string MPL-2.0
+get_matching_string CDDL-1.0
+
+The given license text matches 86.22% with that of MPL-2.0 based on Levenstein distance.
+input
+elif all(score == 1.0 for score in list(matches.values())):
+The following license ID(s) match: BSL-1.0
+input
+elif all(score == 1.0 for score in list(matches.values())):
+The following license ID(s) match: Unlicense

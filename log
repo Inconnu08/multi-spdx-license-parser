@@ -1,0 +1,71 @@
+input
+Building SPDX License List. This may take a while...
+NORMALIZED TEXT
+NORMALIZED TEXT
+NORMALIZED TEXT
+--- 144.24731707572937 seconds ---
+NORMALIZED TEXT
+get close matches {'SHL-0.5': 0.9384429374967145, 'ImageMagick': 0.864387770029746, 'AFL-3.0': 0.8606956813980844, 'ECL-2.0': 0.9581146223888591, 'SHL-0.51': 0.9389859036398064, 'Apache-2.0': 0.9822027634047876}
+get_matching_string SHL-0.5
+get_matching_string ImageMagick
+get_matching_string AFL-3.0
+get_matching_string ECL-2.0
+get_matching_string SHL-0.51
+get_matching_string Apache-2.0
+
+The given license text matches 90.51% with that of Apache-2.0 based on Levenstein distance.
+input
+NORMALIZED TEXT
+elif all(score == 1.0 for score in list(matches.values())):
+The following license ID(s) match: MIT
+input
+NORMALIZED TEXT
+get close matches {'SSPL-1.0': 0.9489317266413618, 'GPL-3.0-only': 0.9947135441546447, 'AGPL-3.0-or-later': 0.9817433869604733, 'GPL-3.0+': 0.999426769848094, 'AGPL-3.0-only': 0.9817433869604733, 'AGPL-3.0': 0.9817433869604733, 'GPL-3.0-or-later': 0.9947135441546447, 'GPL-3.0': 0.9947135441546447}
+get_matching_string SSPL-1.0
+get_matching_string GPL-3.0-only
+get_matching_string AGPL-3.0-or-later
+get_matching_string GPL-3.0+
+get_matching_string AGPL-3.0-only
+get_matching_string AGPL-3.0
+get_matching_string GPL-3.0-or-later
+get_matching_string GPL-3.0
+
+The given license text matches 97.14% with that of GPL-3.0+ based on Levenstein distance.
+input
+NORMALIZED TEXT
+get close matches {'BSD-3-Clause-Attribution': 0.9313333333333333, 'BSD-3-Clause-No-Nuclear-License-2014': 0.9295212765957447, 'BSD-2-Clause-NetBSD': 0.9275683665927569, 'BSD-4-Clause': 0.9346869712351946, 'BSD-2-Clause': 0.9319132750095093, 'BSD-3-Clause-Modification': 0.9116847826086957, 'BSD-3-Clause': 0.9889953851615193, 'Mup': 0.9078473722102232, 'BSD-2-Clause-FreeBSD': 0.9135628952916374, 'BSD-4-Clause-UC': 0.8981058131939909, 'BSD-3-Clause-Open-MPI': 0.872386895475819, 'BSD-2-Clause-Views': 0.9349650349650349, 'BSD-3-Clause-No-Nuclear-Warranty': 0.8615078047160412, 'BSD-3-Clause-No-Nuclear-License': 0.8603648424543947, 'BSD-Source-Code': 0.9234828496042217, 'BSD-3-Clause-Clear': 0.9372693726937269}
+get_matching_string BSD-3-Clause-Attribution
+get_matching_string BSD-3-Clause-No-Nuclear-License-2014
+get_matching_string BSD-2-Clause-NetBSD
+get_matching_string BSD-4-Clause
+get_matching_string BSD-2-Clause
+get_matching_string BSD-3-Clause-Modification
+get_matching_string BSD-3-Clause
+get_matching_string Mup
+get_matching_string BSD-2-Clause-FreeBSD
+get_matching_string BSD-4-Clause-UC
+get_matching_string BSD-3-Clause-Open-MPI
+get_matching_string BSD-2-Clause-Views
+get_matching_string BSD-3-Clause-No-Nuclear-Warranty
+get_matching_string BSD-3-Clause-No-Nuclear-License
+get_matching_string BSD-Source-Code
+get_matching_string BSD-3-Clause-Clear
+
+The given license text matches 93.36% with that of BSD-3-Clause based on Levenstein distance.
+input
+NORMALIZED TEXT
+elif all(score == 1.0 for score in list(matches.values())):
+The following license ID(s) match: LGPL-3.0-or-later, LGPL-3.0, LGPL-3.0+, LGPL-3.0-only
+input
+NORMALIZED TEXT
+get close matches {'SSPL-1.0': 0.950469740729675, 'GPL-3.0-only': 0.9771194412998071, 'AGPL-3.0-or-later': 0.9994252139481415, 'GPL-3.0+': 0.9818390548017284, 'AGPL-3.0-only': 0.9994252139481415, 'AGPL-3.0': 0.9994252139481415, 'GPL-3.0-or-later': 0.9771194412998071, 'GPL-3.0': 0.9771194412998071}
+get_matching_string SSPL-1.0
+get_matching_string GPL-3.0-only
+get_matching_string AGPL-3.0-or-later
+get_matching_string GPL-3.0+
+get_matching_string AGPL-3.0-only
+get_matching_string AGPL-3.0
+get_matching_string GPL-3.0-or-later
+get_matching_string GPL-3.0
+
+The given license text matches 97.47% with that of AGPL-3.0-or-later based on Levenstein distance.
